@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Caja">
+        <menu>
+            <item
+                android:id="@+id/menApertura"
+                android:title="Apertura" />
+            <item
+                android:id="@+id/menCierre"
+                android:title="Cierre" />
+            <item
+                android:id="@+id/menBuscarCaja"
+                android:title="Buscar" />
+            <item
+                android:id="@+id/menDineroEntregado"
+                android:title="Entregar Dinero" />
+        </menu>
+    </item>
+    <item android:title="Venta">
+        <menu>
+            <item
+                android:id="@+id/menNuevaVenta"
+                android:title="Nueva" />
+            <item
+                android:id="@+id/menBuscarVenta"
+                android:title="Venta" />
+            <item
+                android:id="@+id/menBuscarPendiente"
+                android:title="Pendiente Entrega" />
+            <item
+                android:id="@+id/menBuscarPagada"
+                android:title="No Pagado" />
+            <item
+                android:id="@+id/menUltimaVenta"
+                android:title="Ultima venta" />
+        </menu>
+    </item>
+    <item android:title="Orden Compra">
+        <menu>
+            <item
+                android:id="@+id/menNuevaOrdenCompra"
+                android:title="Nueva" />
+            <item
+                android:id="@+id/menBuscarOrdenCompra"
+                android:title="Buscar" />
+            <item
+                android:id="@+id/menSolicitarOrdenCompra"
+                android:title="Solicitar" />
+            <item
+                android:id="@+id/menRecibirOrdenCompra"
+                android:title="Recibir" />
+            <item
+                android:id="@+id/menFacturadaOrdenCompra"
+                android:title="Facturada" />
+            <item
+                android:id="@+id/menPagarOrdenCompra"
+                android:title="Pagar" />
+            <item
+                android:id="@+id/menAnularOrdenCompra"
+                    android:title="Anular" />
+            <item
+                android:id="@+id/menModValorVenta"
+                android:title="Modificar Valor Venta" />
+            </menu>
+        </item>
+    <item android:title="Proveedor">
+        <menu>
+            <item
+                android:id="@+id/menNuevoProveedor"
+                android:title="Nuevo" />
+            <item
+                android:id="@+id/menBuscarProveedor"
+                android:title="Buscar" />
+        </menu>
+    </item>
+    <item android:title="Cliente">
+        <menu>
+            <item
+                android:id="@+id/menNuevoCliente"
+                android:title="Nuevo" />
+            <item
+                android:id="@+id/menBuscarCliente"
+                android:title="Buscar" />
+        </menu>
+    </item>
+    <item android:title="Producto">
+        <menu>
+            <item
+                android:id="@+id/menNuevoProducto"
+                android:title="Nuevo" />
+            <item
+                android:id="@+id/menBuscarProducto"
+                android:title="Buscar" />
+        </menu>
+    </item>
+    <item android:title="Otros">
+        <menu>
+            <item
+                android:id="@+id/menSQL"
+                android:title="   EjecutarSQL" />
+            <item
+                android:id="@+id/menSubir"
+                android:title="   Subir Información" />
+            <item
+                android:id="@+id/menBajar"
+                android:title="   Recibir Información" />
+        </menu>
+    </item>
+
+</menu>

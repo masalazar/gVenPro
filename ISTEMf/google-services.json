@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "431186206171",
+    "project_id": "istem-160614"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431186206171:android:228d26f972d78a9a",
+        "android_client_info": {
+          "package_name": "cl.invsal.www.istemf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFEjs62Q1-H19I2hPoXcuAPWm9fAfcGuE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

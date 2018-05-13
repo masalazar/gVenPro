@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background = "#000000">
+
+    <TextView
+        android:id="@+id/tvPapa"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:minHeight="40dp"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center_vertical"
+        android:paddingRight="40dp"
+        android:paddingLeft="0dp"/>
+
+    <TextView
+        android:id="@+id/tvHijo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minHeight="40dp"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center_vertical"
+        android:paddingRight="40dp"
+        android:paddingLeft="0dp"/>
+
+</LinearLayout>

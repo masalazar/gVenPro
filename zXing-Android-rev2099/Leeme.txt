@@ -1,0 +1,7 @@
+Descargado desde
+
+http://jstyl8.blogspot.com
+
+Proyecto para eclipse de la librería zXing rev2099 configurado para usar en tu aplicación android!
+
+By Jstyl_8

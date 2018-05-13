@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menNuevoNumero"
+            android:title="Obtener Número" />
+    </group>
+
+    <item android:title="Opciones de Número">
+        <menu>
+            <item
+                android:id="@+id/menNumeroEmpresa"
+                android:title="    Número por Empresa" />
+            <item
+                android:id="@+id/menNumeroSucursal"
+                android:title="    Número por Sucursal" />
+            <item
+                android:id="@+id/menTodosNumeros"
+                android:title="    Todos los Números" />
+        </menu>
+    </item>
+    <item android:title="Online">
+        <menu>
+            <item
+                android:id="@+id/menNumOnline"
+                android:title="    Obtener Número" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menNuevoNumero"
+            android:title="Obtener Número" />
+        <item
+            android:id="@+id/menNumeroEmpresa"
+            android:title="Número por Empresa" />
+        <item
+            android:id="@+id/menNumeroSucursal"
+            android:title="Número por Sucursal" />
+        <item
+            android:id="@+id/menTodosNumeros"
+            android:title="Todos los Números" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

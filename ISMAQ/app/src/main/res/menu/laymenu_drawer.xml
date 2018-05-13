@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menNota"
+            android:title="Notas" />
+        <item
+            android:id="@+id/menSinLocal"
+            android:title="Sincronizar" />
+        <item
+            android:id="@+id/menSubir"
+            android:title="Subir Todo" />
+    </group>
+
+    <item android:title="Recaudación">
+        <menu>
+            <item
+                android:id="@+id/menBusRecaudacion"
+                android:title="   Buscar" />
+            <item
+                android:id="@+id/menNueRecaudacion"
+                android:title="   Nueva" />
+            <item
+                android:id="@+id/menSetLote"
+                android:title="   Setear Lote" />
+        </menu>
+    </item>
+    <item android:title="Local">
+        <menu>
+            <item
+                android:id="@+id/menBusLocal"
+                android:title="   Buscar" />
+            <item
+                android:id="@+id/menNueLocal"
+                android:title="   Nuevo" />
+        </menu>
+    </item>
+    <item android:title="Otros">
+        <menu>
+            <item
+                android:id="@+id/menSQL"
+                android:title="   EjecutarSQL" />
+        </menu>
+    </item>
+
+</menu>
